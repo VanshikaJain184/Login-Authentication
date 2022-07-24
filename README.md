@@ -8,7 +8,9 @@ Three components:
 3.Regulating Login and Register Functions
 
 Home Page :
-![image](https://user-images.githubusercontent.com/109887351/180656825-edea2a9f-a451-4103-9f7b-4e5fd1a25b52.png)
+
+![image](https://user-images.githubusercontent.com/109887351/180656857-1e9f6714-0d93-4a72-9a6d-1a68d77b1f81.png)
+
 
 
 Presentaion of Login Authentication:

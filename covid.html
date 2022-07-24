@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="US-en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>covid</title>
+		<style>
+		body{
+		background-image:url("back.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		
+		}
+		.col {
+		  float: left;
+		  width: 33.33%;
+		  margin-left: 75px;
+		}
+		
+		.one{
+			display:flex;
+			width:100%;
+			color:cyan;
+
+		}
+		.two{
+			display:flex;
+			width:100%;
+			color:cyan;
+			
+		}
+		
+		#flex-container{
+		display:flex;
+		float :right;
+
+		}
+		
+		#result{
+		color:Blue;
+		height:41px;
+		width:190px;
+		background-color:White;
+		border:2px solid blue;
+		text-align: center;
+		margin-top:4px;
+		font-size:20px;
+		}
+		#log_out{
+
+			height:44px;
+			width:121px;
+			text-align: center;
+			background-color:red;
+			color:white;
+			border:2px solid white;
+			margin-top:4px;
+		}
+		
+		h1{
+		color:White;
+		}
+		
+		
+
+		
+		
+		
+		@media screen and (max-width: 1107px) {
+			.col {
+		  float: left;
+		  width: 24.33%;
+		  margin-left: 75px;
+		}
+			h1{
+			display:inline;
+			font-size:3.5vw;
+			}
+			
+			#flex-container{
+		display:block;
+		float :none;
+
+		}
+		#result{
+		float :right;
+		margin-top:6px;
+		
+		}
+		.one{
+			display:flex;
+			
+			color:cyan;
+			margin-left:-75px;
+		}
+		
+		.two{
+			display:flex;
+			width:100%;
+			color:cyan;
+			margin-left:-75px;
+			
+		}
+
+		}
+		@media only screen and (max-width: 896px) {
+			.col {
+			width: 100%;
+			
+			}
+			h1{
+			display:inline;
+			font-size:2.5vw;
+			}
+			
+			#flex-container{
+		display:block;
+		float :none;
+
+		}
+		#result{
+		float :right;
+		margin-top:6px;
+		}
+		.one{
+			display:block;
+			width:100%;
+			color:cyan;
+			margin-left:17%;
+		}
+		
+		.two{
+			display:block;
+			width:100%;
+			color:cyan;
+			margin-left:17%;
+			
+		}
+		}
+		
+		@media only screen and (max-width: 500px) {
+		.one{
+			display:block;
+			width:100%;
+			color:cyan;
+			margin-left:6%;
+		}
+		
+		.two{
+			display:block;
+			width:100%;
+			color:cyan;
+			margin-left:6%;
+		}
+		
+		}
+	
+		</style>
+	</head>
+	<body>
+	
+	<div id="flex-container">
+	<p id="result"></p>
+	<button id="log_out" onclick="logout();"><b>Log Out</b></button>
+	</div>
+	<h1> Welcome to Safety Measures Against Coronavirus</h1>
+	
+		<div class="one">
+		<div class="col"><img src="mask1.jpg" width="280px"	 height="250px"/><p>Price :50Rs/-</p>	</div>
+		<div class="col"><img src="mask2.jpg"  	width="280px"	  height="250px"/><p>Price :60Rs/-</p></div>
+		<div class="col"><img src="mask3.jpg" 	width="280px"	  height="250px" /><p>Price :50Rs/-</p></div>
+		
+		</div>
+	
+		<div class="two">
+		<div class="col"><img src="sanitizer4.jpg"	width="280px"	  height="250px"/><p>Price :200Rs/-</p>	</div>
+		<div class="col"><img src="sanitizer1.png"	width="280px"	  height="250px"/><p>Price :150Rs/-</p>	</div>
+		<div class="col"><img src="sanitizer2.jpg"	width="280px"	  height="250px"/><p>Price :150Rs/-</p>	</div>
+		</div>
+		
+<script>
+
+//var name = localStorage.getItem("textvalue1");
+//var pwd = localStorage.getItem("textvalue2");
+var nm = sessionStorage.nm;
+var pd = sessionStorage.pd;
+var em = sessionStorage.em;
+
+var show=sessionStorage.show;
+
+if(show=="Admin")
+{
+document.getElementById("result").innerHTML=show;
+}
+else
+{
+document.getElementById("result").innerHTML=nm;
+}
+function logout()
+{
+
+window.location = "Home_Page.html";
+}
+</script>
+	</body>
+
+</html>

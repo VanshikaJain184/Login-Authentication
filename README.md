@@ -6,7 +6,9 @@ Three components:
 1.Web page Formation
 2.Styling
 3.Regulating Login and Register Functions
-![Picture1](https://user-images.githubusercontent.com/109887351/180656783-f68abac8-86f8-4434-8c38-7ceacea0f6a2.png)
+
+Home Page :
+![image](https://user-images.githubusercontent.com/109887351/180656825-edea2a9f-a451-4103-9f7b-4e5fd1a25b52.png)
 
 
 Presentaion of Login Authentication:
